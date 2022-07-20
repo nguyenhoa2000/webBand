@@ -1,0 +1,89 @@
+/* pc */
+@media (min-width:1024) {
+    #header-menu {
+        display: none;
+    }
+}
+
+/* taplet */
+@media (min-width:740px) and (max-width:1023) {
+    
+}
+
+/* mobile */
+
+
+
+
+@media (max-width:739px) {
+
+    /* comon */
+    .s-col-full {
+        width: 100%;
+    }
+    
+    .mg-16 {
+        margin-bottom: 16px;
+    }
+    .mg-8 {
+        margin-bottom: 8px;
+    }
+    
+    .s-full-width {
+        width: 100%;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li > a {
+        display: block;
+    }
+
+    #nav li .sub-nav {
+        position: inherit;
+        background-color: #333;
+    }
+
+    #nav li .sub-nav li a {
+        color:#fff;
+        padding:5px 39px;
+    }
+
+   .s-col-full {
+        width: 100%;
+    }
+
+     .imge-member {
+        width: 60%;
+        margin-bottom: 16px;
+    }
+
+     .buy-ticket {
+        width: 100%;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+
+    #header-Search {
+        display: none;
+    }
+
+    #header-menu {
+       position: absolute;
+       top: 0;
+       right: 0;
+       display: block;
+    }
+}
